@@ -13,7 +13,7 @@ Para mas informacion visitar el siguiente [Link](https://developers.google.com/y
 
 ## Obtener PlaylistId
 
-- Ingresar a [Youtube](https://www.youtube.com) buscar un playist de preferencia, copiar de la url el codigo que parece marcado https://www.youtube.com/watch?v=rVmmToPNQXE&list=`UUuaPTYj15JSkETGnEseaFFg`
+- Ingresar a [Youtube](https://www.youtube.com) buscar un playist de preferencia, copiar de la url el codigo que parece marcado https://www.youtube.com/watch?v=rVmmToPNQXE&list= `UUuaPTYj15JSkETGnEseaFFg`
 
 ## Agragar el apiKey y playlistId al proyecto
 
