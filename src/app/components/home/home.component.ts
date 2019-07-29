@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
     public _yts: YoutubeService
   ) {
     _yts.getVideos().subscribe(resp => {
-      console.log(resp);
       this.videos = resp;
     });
   }
@@ -26,6 +25,15 @@ export class HomeComponent implements OnInit {
   verVideo( video: any ) {
     this.videoSel = video;
     $('#exampleModal').modal();
+  }
+
+  cerrarModal() {
+    this.videoSel = null;
+    $('#exampleModal').modal('hide');
+  }
+
+  cargarMas() {
+    this._yts.getVideos().subscribe(resp => this.videos.push.apply( this.videos, resp ) );
   }
 
 }

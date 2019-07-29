@@ -12,13 +12,15 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { YoutubeService } from './services/youtube.service';
+import { VideoyoutubePipe } from './pipes/videoyoutube.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    VideoyoutubePipe
   ],
   imports: [
     BrowserModule,
